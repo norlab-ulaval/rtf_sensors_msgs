@@ -13,8 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/CustomPressure.msg"
-  "msg/CustomTemperature.msg"
+  "msg/CustomPressureTemperature.msg"
   DEPENDENCIES std_msgs
 )
 
